@@ -1,0 +1,55 @@
+body, html {
+	font-size: 11pt;
+	background-color: #eee;
+}
+
+nav {
+	box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 40%);
+}
+
+footer {
+	color: #aaa;
+	background-color: #000;
+}
+
+a {
+	text-decoration: none;
+}
+
+.user-img {
+	margin-right: 6px;
+	width: 30px;
+}
+
+.user-img img {
+	width: 100%;
+	height: 100%;
+}
+
+.user-info {
+	margin-top: 3px;
+}
+
+.hashtag-container {
+	border-radius: 5px;
+}
+
+.hashtag-container:hover {
+	background-color: #eee;
+}
+
+.th_link a {
+	color: #000;
+	text-decoration: none;
+}
+
+/* #default-hashtag-container {
+	background-color: #ccc;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+} */
+
+#sticky-container {
+	position: sticky;
+	top: 60px;
+}
