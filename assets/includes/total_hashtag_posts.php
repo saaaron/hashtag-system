@@ -1,8 +1,8 @@
 <?php 
-	// select and count all posts with keyword
+	// select and count all posts with hashtag
 	$select_ht_posts = "SELECT * FROM posts WHERE body LIKE CONCAT('%', ?, '%')";
 	if ($stmt = mysqli_prepare($db, $select_ht_posts)) {
-		mysqli_stmt_bind_param($stmt, "s", $keyword);
+		mysqli_stmt_bind_param($stmt, "s", $page_title);
 		mysqli_stmt_execute($stmt);
 		while (mysqli_stmt_fetch($stmt)) {
 		  	// fetch results

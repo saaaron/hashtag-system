@@ -13,7 +13,7 @@
 				<div class="col-md-6 col-lg-6 col-xl-6 mb-sm-3">
 					<div>
 						<div id="post-textarea">
-							<textarea rows="2" class="form-control" onkeyup="count_char(this, 100)" placeholder="Post something with a #hashtag..." required></textarea>
+							<textarea rows="2" class="form-control" onkeyup="count_char(this, 100)" placeholder="Post something with a #hashtag..."></textarea>
 						</div>
 						<div class="d-flex justify-content-between mt-1">
 							<div>

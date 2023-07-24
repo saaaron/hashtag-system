@@ -5,10 +5,13 @@
 	// format time function
 	include "assets/includes/format_time_function.php";
 
+	// hashtag
+	$hashtag = '#'.$keyword;
+
 	// select posts 
 	$query = "SELECT * FROM posts WHERE body LIKE CONCAT('%', ?, '%') ORDER BY created_on DESC";
 	$stmt = mysqli_prepare($db, $query);
-	mysqli_stmt_bind_param($stmt, "s", $keyword);
+	mysqli_stmt_bind_param($stmt, "s", $hashtag);
 	mysqli_stmt_execute($stmt);
 	$result = mysqli_stmt_get_result($stmt);
 	while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
@@ -37,7 +40,7 @@
 
 	$query = "SELECT * FROM posts WHERE body LIKE CONCAT('%', ?, '%')";
 	if ($stmt = mysqli_prepare($db, $query)) {
-		mysqli_stmt_bind_param($stmt, "s", $keyword);
+		mysqli_stmt_bind_param($stmt, "s", $hashtag);
 		mysqli_stmt_execute($stmt);
 		while (mysqli_stmt_fetch($stmt)) {
 			// fetch results
