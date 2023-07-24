@@ -8,10 +8,13 @@
 		// fetch results 
 		$keyword = $row["keyword"];
 
+		// hashtag
+		$hashtag = '#'.$keyword;
+
 		// count hashtag posts
 	    $select_posts = "SELECT * FROM posts WHERE body LIKE CONCAT('%', ?, '%')";
 	    if ($stmt = mysqli_prepare($db, $select_posts)) {
-		    mysqli_stmt_bind_param($stmt, "s", $keyword);
+		    mysqli_stmt_bind_param($stmt, "s", $hashtag);
 		    mysqli_stmt_execute($stmt);
 		    while (mysqli_stmt_fetch($stmt)) {
 		      // fetch results
