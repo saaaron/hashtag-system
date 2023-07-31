@@ -7,6 +7,11 @@ Project on a hashtag system built using jQuery and PHP
 ### Publication
 [Building a hashtag system using PHP in 3 steps](https://dev.to/saaaron/building-a-hashtag-system-using-hypertext-preprocessor-php-in-3-steps-3ejd)
 
+### Screenshots
+[image 1](https://i.ibb.co/qCzLTQD/Screenshot-6.png)
+[image 2](https://i.ibb.co/k0cTWmG/Screenshot-7.png)
+[image 3](https://i.ibb.co/hFBPNkM/Screenshot-8.png)
+
 ### Requirements
 HTML 5, CSS, Bootstrap 5, jQuery, PHP, MySQL
 
