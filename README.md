@@ -1,5 +1,5 @@
 # Building-a-hashtag-system-using-jQuery-and-PHP
-Project on a hashtag system built using jQuery and PHP
+An online platform that manage user hashtags
 
 ### Author
 [Sa Aaron](https://twitter.com/SaAaron6)
