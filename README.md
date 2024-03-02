@@ -4,9 +4,6 @@ An online platform that manage user hashtags
 ### Author
 [Sa Aaron](https://twitter.com/SaAaron6)
 
-### Publication
-[Building a hashtag system using PHP in 3 steps](https://dev.to/saaaron/building-a-hashtag-system-using-hypertext-preprocessor-php-in-3-steps-3ejd)
-
 ### Screenshots
 [image 1](https://i.ibb.co/qCzLTQD/Screenshot-6.png)
 [image 2](https://i.ibb.co/k0cTWmG/Screenshot-7.png)
