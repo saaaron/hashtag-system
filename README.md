@@ -1,5 +1,5 @@
 # Hashtag system
-An online platform that manage user hashtags built with PHP
+An online platform that manage user hashtags
 
 ### Author
 [Sa Aaron](https://twitter.com/SaAaron6)
